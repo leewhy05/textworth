@@ -1,0 +1,15 @@
+.sec{
+  background-color: rgb(255, 127, 127);
+  height: 7rem;
+}
+button{
+ width: 13rem;
+}
+.custom-toggle-button {
+  width: 200px; /* Adjust the width to your preference */
+  border: none;
+}
+.nav-button{
+  background-color: transparent;
+}
+
