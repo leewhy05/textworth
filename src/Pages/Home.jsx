@@ -6,6 +6,7 @@ import ThirdImg from "../assets/img 2.jpg"
 
 const Home = () => {
   return (
+    <>
    <section className='Home'>
      <Carousel>
     <Carousel.Item>
@@ -33,6 +34,13 @@ const Home = () => {
     </Carousel.Item>
   </Carousel>
    </section>
+    <section className='container'>
+      <div className='text-center mt-5'>
+      <h1 className='fw-bold text-info pt-5'>TEXTSWORTH PUBLISHING LIMITED</h1>
+      <p className='fs-4 text-secondary pt-5'>Textsworth is known for standard and modern textsbooks, instuctional materials and e-books targeted to help learners from nursery to secondary school level acquire quality education and training for teachers. we are proud topartner with schools</p>
+      </div>
+    </section>
+   </>
   )
 }
 

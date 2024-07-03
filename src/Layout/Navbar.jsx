@@ -27,7 +27,7 @@ const MyNavbar = () => {
       <Dropdown.Menu>
         <Dropdown.Item href="/Lists" className='fw-bold'>Primary One</Dropdown.Item>
         <Dropdown.Item href="/PrimaryTwo" className='fw-bold'>Primary Two</Dropdown.Item>
-        <Dropdown.Item href="#/action-3" className='fw-bold'>Primary Three</Dropdown.Item>
+        <Dropdown.Item href="/PrimaryThree" className='fw-bold'>Primary Three</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
             </div>
@@ -38,7 +38,7 @@ const MyNavbar = () => {
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1" className='fw-bold'>Primary 1 </Dropdown.Item>
+        <Dropdown.Item href="#/action-1" className='fw-bold'>action </Dropdown.Item>
         <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
         <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
       </Dropdown.Menu>
@@ -51,7 +51,7 @@ const MyNavbar = () => {
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1" className='fw-bold'>Primary one</Dropdown.Item>
+        <Dropdown.Item href="#/action-1" className='fw-bold'>action</Dropdown.Item>
         <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
         <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
       </Dropdown.Menu>
@@ -75,20 +75,20 @@ const MyNavbar = () => {
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Dropdown.Item href="/Lists">Action</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+        <Dropdown.Item href="/Lists" className='fw-bold'>Primary One</Dropdown.Item>
+        <Dropdown.Item href="/PrimaryTwo" className='fw-bold'>Primary Two</Dropdown.Item>
+        <Dropdown.Item href="/PrimaryThree" className='fw-bold'>Primary Three</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
             </div>
             <div className=''>
             <Dropdown>
-      <Dropdown.Toggle variant="" id="dropdown-basic" className='btn btn fw-bold border-none'>
+      <Dropdown.Toggle variant="" id="dropdown-basic" className='fw-bold'>
       Virtual Books
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Dropdown.Item href="/" className='fw-bold'>Primary 1 (age 6)</Dropdown.Item>
+        <Dropdown.Item href="#/action-1" className='fw-bold'>action </Dropdown.Item>
         <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
         <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
       </Dropdown.Menu>
@@ -101,7 +101,7 @@ const MyNavbar = () => {
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1" className='fw-bold'>Primary 1 (age 6)</Dropdown.Item>
+        <Dropdown.Item href="#/action-1" className='fw-bold'>action</Dropdown.Item>
         <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
         <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
       </Dropdown.Menu>

@@ -6,6 +6,8 @@ import Lists from './Pages/Lists'
 import Preview from './Pages/Preview'
 import Virtual from './Pages/Virtual'
 import PrimaryTwo from './Pages/PrimaryTwo'
+import PrimaryThree from './Pages/PrimaryThree'
+import Footer from './Layout/Footer'
 
 function App() {
 
@@ -17,9 +19,11 @@ function App() {
       <Route path='/' element={<Home/>}/>
       <Route path='/Lists' element={<Lists/>}/>
       <Route path='/PrimaryTwo' element={<PrimaryTwo/>}/>
+      <Route path='/PrimaryThree' element={<PrimaryThree/>}/>
       <Route path='/Preview' element={<Preview/>}/>
       <Route path='/Virtual' element={<Virtual/>}/>
      </Routes>
+     <Footer/>
      </BrowserRouter>
     </>
   )

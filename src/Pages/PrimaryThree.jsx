@@ -1,4 +1,11 @@
 import React from 'react'
+import Golden from "../assets/golden glove.jpg"
+import Talking from "../assets/talking fish.jpg"
+import Wrong from "../assets/wrong person.jpg"
+import Boxing from "../assets/boxing day.jpg"
+import flute from "../assets/musa flute player.jpg"
+import Snow from "../assets/snow white.jpg"
+import Alice from "../assets/alice in wonder.jpg"
 
 const PrimaryThree = () => {
   return (
