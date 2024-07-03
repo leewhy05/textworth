@@ -12,4 +12,28 @@ button{
 .nav-button{
   background-color: transparent;
 }
+.gap{
+  gap: 7rem;
+ 
+}
+.flip-image {
+  width: 200px; /* Adjust the size as needed */
+  height: 200px; /* Adjust the size as needed */
+  perspective: 1000px;
+}
 
+.flip-image img {
+  width: 18rem;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.2s;
+}
+.flip-image:hover img {
+  transform: rotateY(180deg);
+}
+@media (max-width: 768px) {
+  .gap{
+    gap: 1rem;
+  
+  }
+}
