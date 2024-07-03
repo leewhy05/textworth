@@ -38,9 +38,9 @@ const MyNavbar = () => {
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1" className='fw-bold'>action </Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+        <Dropdown.Item href="/" className='fw-bold'>action </Dropdown.Item>
+        <Dropdown.Item href="/">Another action</Dropdown.Item>
+        <Dropdown.Item href="/">Something else</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
             </div>
@@ -51,9 +51,9 @@ const MyNavbar = () => {
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1" className='fw-bold'>action</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+        <Dropdown.Item href="/" className='fw-bold'>action</Dropdown.Item>
+        <Dropdown.Item href="/">Another action</Dropdown.Item>
+        <Dropdown.Item href="/">Something else</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
             </div>
@@ -88,9 +88,9 @@ const MyNavbar = () => {
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1" className='fw-bold'>action </Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+        <Dropdown.Item href="/" className='fw-bold'>action </Dropdown.Item>
+        <Dropdown.Item href="/">Another action</Dropdown.Item>
+        <Dropdown.Item href="/">Something else</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
             </div>
@@ -101,9 +101,9 @@ const MyNavbar = () => {
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1" className='fw-bold'>action</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+        <Dropdown.Item href="/" className='fw-bold'>action</Dropdown.Item>
+        <Dropdown.Item href="/">Another action</Dropdown.Item>
+        <Dropdown.Item href="/">Something else</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
             </div>
