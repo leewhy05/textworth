@@ -31,10 +31,23 @@ button{
 .flip-image:hover img {
   transform: rotateY(180deg);
 }
+.bott{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 15rem;
+  height: 10rem;
+}
 @media (max-width: 768px) {
   .gap{
     gap: 1rem;
     padding-right: 8rem;
   
+  }
+  .bott{
+    height: 5rem;
   }
 }

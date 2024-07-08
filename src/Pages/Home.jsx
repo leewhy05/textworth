@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import FirstImg from "../assets/Texsworth pic.png"
 import SecImg from "../assets/image1.jpg"
 import ThirdImg from "../assets/img 2.jpg"
+import Button from './Button';
 
 const Home = () => {
   return (
@@ -54,6 +55,9 @@ const Home = () => {
      </div>
      </div>
     </section>
+   </div>
+   <div>
+    <Button/>
    </div>
    </>
   )
