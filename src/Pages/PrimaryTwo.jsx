@@ -20,15 +20,9 @@ const PrimaryTwo = () => {
       <h2 className='pt-4'>The Golden Stove
       </h2>
       <hr />
-      <h5>An ugly duckling was born by the pond of Zeta 
-in a beautiful animal kingdom.
-He was rejected by his siblings and other 
-animals because he was different from other 
-ducklings. But nature played a part in the ugly 
-duckling's life. 
-“What was it?” You will find out in this 
-wonderful story what became of the ugly 
-duckling as you read on.</h5>
+      <h5>Pa Amechi was a rich man, who loved to tell stories to his grandchildren when they visit him during the holidays.
+On one of their visits to him he told them a story of how he journeyed from Owuze to Etiti in pursue of a very valuable possession, and he and his family were moved from grass to grace.
+Read and enjoy this interesting story of the golden stove.</h5>
 <div className=''>
         <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
       </div>
@@ -40,7 +34,9 @@ duckling as you read on.</h5>
       <h2 className='pt-4'>      The Talking Fish
       </h2>
       <hr />
-      <h5>Kokogi was a cunning man, but expert at barbing at barbing and he was too proud of it that he started to misbehave. He also sold firewood to villagers at very high price and even cheated on them. But Kokogi must be taught a lesson. “How did he learn his lesson?” “What was his reward?” Read this interesting story of the dishonest barber.</h5>
+      <h5>Eringa is a poor but a hardworking fisherman, who is married to a lazy and nagging wife. But one day, while fishing in the river, he caught a strange fish and things changed for Eringa and his
+ungrateful wife... Read on, as you will find out in this wonderful story what
+happened to this strange fish and</h5>
       <div>
         <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
       </div>
@@ -67,15 +63,9 @@ duckling as you read on.</h5>
       <h3 className='pt-4'>      Its Boxing Day
       </h3>
       <hr />
-      <p className='fw-bold'>Little red riding hood was a girl who loves to play.
-She was called little red riding hood because she
-wore a beautiful red cloak that her grandmother made for her.
-On her way to visit her grandmother to collect her doll
-that she had forgotten, she met a big wolf and she never
-knew that wolves are dangerous animals.
-What do you think must have happened to the
-little gilr? Did the wolf hurt her?
-read for yoursefl this exciting story.</p>
+      <p className='fw-bold'>Kelechukwu and Adaugo have been looking for
+a child since they got married, and each time Adaugo gets pregnant, she delivers a stillbirth. After the fifth stillbirth, Elechi became seriously ill and was taken to a faraway village for a cure.
+One day, three men who were on a journey visited Adaugo. They asked her for a place to rest. "Did Adaugo offer to help these men and who are they ?"</p>
 <div>
         <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
       </div>
@@ -87,7 +77,11 @@ read for yoursefl this exciting story.</p>
       <h3 className='pt-4'>      Musa The Flute Player
       </h3>
       <hr />
-      <h5>Kokogi was a cunning man, but expert at barbing at barbing and he was too proud of it that he started to misbehave. He also sold firewood to villagers at very high price and even cheated on them. But Kokogi must be taught a lesson. “How did he learn his lesson?” “What was his reward?” Read this interesting story of the dishonest barber.</h5>
+      <h5>The people of Bakinruwa lived peacefully and happily and had enough to eat.
+One night, thousands of mice invaded their town and everything changed for the villagers, until one day...
+"What must have happened to them?"
+"Where could the mice have vanished to?"
+Find out what happened in this interesting story of Musa and his flute.</h5>
       <div>
         <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
       </div>
@@ -99,7 +93,8 @@ read for yoursefl this exciting story.</p>
       <h3 className='pt-4'>    Snow White
       </h3>
       <hr />
-      <h5>Rapunzel is about a beautiful girl with a very long golden braided hair, born by an ordinary parent; but bred by a witch. She lives in a high tower with the witch; in a thick wood as a child until... Discover for yourself what happened to Rapunzel in this story.
+      <h5>Snow White is a very beautiful girl, born of a nice king and a queen but the queen died and the king had to remarry. The new queen hated Snow White because she was the most beautiful girl in the kingdom and tried every means to kill her. 'Did the wicked Queen succeed in killing Snow White?"
+      anything happen to her?" Let's find out, as we read this interesting classic story of Snow White.
       </h5>
       <div>
         <button className='btn btn-primary fw-bold mt-2'>Get Book</button>

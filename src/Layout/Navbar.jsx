@@ -8,7 +8,8 @@ const MyNavbar = () => {
   const [showOffcanvas, setShowOffcanvas] = useState(false);
 
   return (
-    <Navbar className='sec sticky-top' expand="lg">
+   <div className='container sticky-top'>
+     <Navbar className='sec' expand="lg">
       <Container>
       <main className='d-flex justify-content-between align-items-cente sticky-top'>
       <Navbar.Brand href="/" className='col-6'><img src={Logo} alt="" className='w-50'/></Navbar.Brand>
@@ -115,6 +116,7 @@ const MyNavbar = () => {
       </main>
       </Container>
     </Navbar>
+   </div>
   );
 }
 

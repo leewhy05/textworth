@@ -4,6 +4,7 @@ import "../styles/footer.css"
 const Footer = () => {
   return (
     <> 
+    <div className='container'>
     <footer className='footer'>
     <footer className=" container">
   <div className="footer-content">
@@ -28,6 +29,7 @@ const Footer = () => {
   </div>
 </footer>
 </footer>
+    </div>
 </>
   )
 }

@@ -7,6 +7,7 @@ import ThirdImg from "../assets/img 2.jpg"
 const Home = () => {
   return (
     <>
+   <div className='container'>
    <section className='Home'>
      <Carousel>
     <Carousel.Item>
@@ -39,7 +40,8 @@ const Home = () => {
       <h1 className='fw-bold text-info pt-5'>TEXTSWORTH PUBLISHING LIMITED</h1>
       <p className='text-secondary pt-5'>Textsworth is known for standard and modern textsbooks, instuctional materials and e-books targeted to help learners from nursery to secondary school level acquire quality education and training for teachers. we are proud topartner with schools</p>
       </div>
-     <div className='row gap align-items-center'>
+     <div className=''>
+     <div className='row gap justify-content-center align-items-center'>
      <div className="flip-image mt-5 col-lg-4">
       <img src={FirstImg} alt="Flipping-image" />
     </div>
@@ -50,7 +52,9 @@ const Home = () => {
       <img src={ThirdImg} alt="Flipping-image" />
     </div>
      </div>
+     </div>
     </section>
+   </div>
    </>
   )
 }
