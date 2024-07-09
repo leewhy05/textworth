@@ -8,6 +8,7 @@ import Virtual from './Pages/Virtual'
 import PrimaryTwo from './Pages/PrimaryTwo'
 import PrimaryThree from './Pages/PrimaryThree'
 import Footer from './Layout/Footer'
+import { Toaster } from 'react-hot-toast'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <Route path='/Virtual' element={<Virtual/>}/>
      </Routes>
      <Footer/>
+     <Toaster/>
      </BrowserRouter>
     </>
   )
