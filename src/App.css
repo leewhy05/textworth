@@ -34,7 +34,7 @@ button{
 .bott{
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  right: 300px;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
@@ -49,5 +49,6 @@ button{
   }
   .bott{
     height: 5rem;
+    right: 0px;
   }
 }
