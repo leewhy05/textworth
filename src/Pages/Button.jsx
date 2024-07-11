@@ -35,7 +35,7 @@ const Buttonn = () => {
               aria-labelledby="example-custom-modal-styling-title"
           >
               <Modal.Header closeButton>
-                  <Modal.Title id="example-custom-modal-styling-title">
+                  <Modal.Title id="example-custom-modal-styling-title" className='text-danger'>
                       Book a Session with Texthworth PLC
                   </Modal.Title>
               </Modal.Header>

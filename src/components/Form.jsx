@@ -41,18 +41,18 @@ const Form = ({closeModal}) => {
   return (
     <div>
        <form onSubmit={handleSubmit}>
-      <label className='fw-bold fs-4'>NAME:</label><br />
+      <label className='fw-bold fs-4 text-danger'>NAME:</label><br />
       <input type="text" name="name" value={formData.name} onChange={handleChange} required /><br /><br />
 
-      <label className='fw-bold fs-4 '>EMAIL:</label><br />
+      <label className='fw-bold fs-4 text-danger'>EMAIL:</label><br />
       <input type="email" name="email" value={formData.email} onChange={handleChange} required /><br /><br />
 
-      <label className='fw-bold fs-4'>PHONE NUMBER:</label><br />
+      <label className='fw-bold fs-4 text-danger'>PHONE NUMBER:</label><br />
       <input type="tel" name="phone" value={formData.phone} onChange={handleChange} required /><br /><br />
 
-      <label className='fw-bold fs-4'>SELECT DATE:</label><br />
+      <label className='fw-bold fs-4 text-danger'>SELECT DATE:</label><br />
       <DatePicker selected={formData.selectedDate} onChange={handleDateChange} dateFormat="dd/MM/yyyy" /><br /><br />
-      <label className='fw-bold fs-4'>SELECT TIME:</label>
+      <label className='fw-bold fs-4 text-danger'>SELECT TIME:</label>
 <TimePicker
   onChange={(time) => setFormData({ ...formData, selectedTime: time })}
   value={formData.selectedTime}
