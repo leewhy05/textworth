@@ -2,12 +2,14 @@ import React, { useState } from 'react';
 import toast from 'react-hot-toast';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
+import TimePicker from 'react-time-picker';
+import 'react-time-picker/dist/TimePicker.css';
 
 
 
-const Form = () => {
-  const [formData, setFormData] = useState({ name: '', email: '', phone: '', selectedDate: null });
-
+const Form = ({closeModal}) => {
+  const [formData, setFormData] = useState({ name: '', email: '', phone: '', selectedDate: null, selectedTime: "12:00" });
+  const [showModal, setShowModal] = useState(false);
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -21,7 +23,7 @@ const Form = () => {
       });
 
       if (response.ok) {
-        toast.success('Form submitted successfully!');
+        toast.success('Form submitted successfully!'); closeModal(false); // Close the modal after successful form submission
       } else {
         toast.error('Form submission failed. Please try again.');
       }
@@ -39,19 +41,25 @@ const Form = () => {
   return (
     <div>
        <form onSubmit={handleSubmit}>
-      <label>Name:</label>
+      <label className='fw-bold fs-4'>NAME:</label><br />
       <input type="text" name="name" value={formData.name} onChange={handleChange} required /><br /><br />
 
-      <label>Email:</label>
+      <label className='fw-bold fs-4 '>EMAIL:</label><br />
       <input type="email" name="email" value={formData.email} onChange={handleChange} required /><br /><br />
 
-      <label>Phone Number:</label>
+      <label className='fw-bold fs-4'>PHONE NUMBER:</label><br />
       <input type="tel" name="phone" value={formData.phone} onChange={handleChange} required /><br /><br />
 
-      <label>Select Date:</label>
+      <label className='fw-bold fs-4'>SELECT DATE:</label><br />
       <DatePicker selected={formData.selectedDate} onChange={handleDateChange} dateFormat="dd/MM/yyyy" /><br /><br />
+      <label className='fw-bold fs-4'>SELECT TIME:</label>
+<TimePicker
+  onChange={(time) => setFormData({ ...formData, selectedTime: time })}
+  value={formData.selectedTime}
+/> <br /> <br />
 
-      <button type="submit">Submit</button>
+
+      <button type="submit" className='fw-bold bg-primary rounded text-white fs-4'>Submit</button>
     </form>
     </div>
   )
