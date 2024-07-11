@@ -1,0 +1,10 @@
+.lat{
+    height: 25rem;
+    width: 30rem;
+}
+
+@media (max-width: 768px) {
+    .lat{
+        height: 22rem;
+    }
+  }

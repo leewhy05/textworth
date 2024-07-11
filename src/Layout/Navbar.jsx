@@ -29,6 +29,9 @@ const MyNavbar = () => {
         <Dropdown.Item href="/Lists" className='fw-bold'>Primary One</Dropdown.Item>
         <Dropdown.Item href="/PrimaryTwo" className='fw-bold'>Primary Two</Dropdown.Item>
         <Dropdown.Item href="/PrimaryThree" className='fw-bold'>Primary Three</Dropdown.Item>
+        <Dropdown.Item href="/PrimaryFour" className='fw-bold'>Primary Four</Dropdown.Item>
+        <Dropdown.Item href="/PrimaryFive" className='fw-bold'>Primary Five</Dropdown.Item>
+        <Dropdown.Item href="/PrimarySix" className='fw-bold'>Primary Six</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
             </div>
@@ -79,6 +82,9 @@ const MyNavbar = () => {
         <Dropdown.Item href="/Lists" className='fw-bold'>Primary One</Dropdown.Item>
         <Dropdown.Item href="/PrimaryTwo" className='fw-bold'>Primary Two</Dropdown.Item>
         <Dropdown.Item href="/PrimaryThree" className='fw-bold'>Primary Three</Dropdown.Item>
+        <Dropdown.Item href="/PrimaryFour" className='fw-bold'>Primary Four</Dropdown.Item>
+        <Dropdown.Item href="/PrimaryFive" className='fw-bold'>Primary Five</Dropdown.Item>
+        <Dropdown.Item href="/PrimarySix" className='fw-bold'>Primary Six</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
             </div>

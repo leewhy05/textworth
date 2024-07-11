@@ -5,22 +5,28 @@ import Home from './Pages/Home'
 import Lists from './Pages/Lists'
 import Preview from './Pages/Preview'
 import Virtual from './Pages/Virtual'
-import PrimaryTwo from './Pages/PrimaryTwo'
-import PrimaryThree from './Pages/PrimaryThree'
+import PrimaryTwo from './components/PrimaryTwo'
+import PrimaryThree from './components/PrimaryThree'
 import Footer from './Layout/Footer'
 import { Toaster } from 'react-hot-toast'
+import PrimaryFour from './components/PrimaryFour'
+import PrimaryFive from './components/PrimaryFive'
+import PrimarySix from './components/PrimarySix'
 
 function App() {
 
   return (
     <>
-     <BrowserRouter>
+     <BrowserRouter>    
      <Navbar/>
      <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/Lists' element={<Lists/>}/>
       <Route path='/PrimaryTwo' element={<PrimaryTwo/>}/>
       <Route path='/PrimaryThree' element={<PrimaryThree/>}/>
+      <Route path='/PrimaryFour' element={<PrimaryFour/>}/>
+      <Route path='/PrimaryFive' element={<PrimaryFive/>}/>
+      <Route path='/PrimarySix' element={<PrimarySix/>}/>
       <Route path='/Preview' element={<Preview/>}/>
       <Route path='/Virtual' element={<Virtual/>}/>
      </Routes>
