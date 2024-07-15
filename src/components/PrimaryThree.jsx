@@ -37,9 +37,13 @@ On getting to the cave, something else happened. "Was he able to find his way ou
       <h3 className='pt-4'>      Aladin and the magical lamp
       </h3>
       <hr />
-      <h5>Kokogi was a cunning man, but expert at barbing at barbing and he was too proud of it that he started to misbehave. He also sold firewood to villagers at very high price and even cheated on them. But Kokogi must be taught a lesson. “How did he learn his lesson?” “What was his reward?” Read this interesting story of the dishonest barber.</h5>
+      <p className='fw-bold'>Aladdin was a handsome poor boy,
+who begged on the streets to eat. But he always dreamt of becoming very rich one day. In a palace, is a princess, who must marry a prince before her next birthday but, who wanted to marry someone she loves. In the same palace, is the Sultan's chief adviser, Jaffar, who wants to overthrow the Sultan.
+Something brought the princess, Aladdin and Jaffar together.
+"What was it?" You are going to enjoy this wonderful adventure of
+as you read on.</p>
       <div>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+        <button className='btn btn-primary fw-bold'>Get Book</button>
       </div>
       </div>
       <div className='big shadow mt-4 col-lg-4'>
@@ -110,7 +114,9 @@ You will find out in this exciting and interesting story what the red rose did a
       <h3 className='pt-4'> Sa'haratu The Dreamer
       </h3>
       <hr />
-      <h5>Rapunzel is about a beautiful girl with a very long golden braided hair, born by an ordinary parent; but bred by a witch. She lives in a high tower with the witch; in a thick wood as a child until... Discover for yourself what happened to Rapunzel in this story.
+      <h5>Sa'haratu is a woman who
+dreams a lot and she believes that her dreams are usually real. But, not everyone takes her serious all the time, even the king. "But does her dream come in positive or negative form?" or "Do they really come true?"
+You will know, as you read this wonderfu story of Sa'haratu and her dreams.
       </h5>
       <div>
         <button className='btn btn-primary fw-bold mt-2'>Get Book</button>

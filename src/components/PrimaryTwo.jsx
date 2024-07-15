@@ -45,13 +45,17 @@ happened to this strange fish and</h5>
       <div className=''>
       <img src={Wrong} alt="" className='img-fluid w-100'/>
       </div>
-      <h2 className='pt-3'>     A Wrong Decision
-      </h2>
+      <h4 className=' fw-bold'>     A Wrong Decision
+      </h4>
       <hr />
-      <h5>Textsworth ‘story books’ are enchanting collections of indigenous African stories and popular English Classics, beautifully illustrated to make reading exciting. This book is basically designed to introduce school pupils to the world of Literature and arts. The African Delight and English Classics stories have been simplified too...
-      </h5>
+      <p  className='fw-bold'>Aderin, the king of Owoderin ruled
+his kingdom with peace and love. He wanted to entrust his kingdom to someone, so he called his three sons and asked each of them how much they loved him.
+The first two sons gave similar answers and the king gave one-third of his kingdom to each of them.
+But when the third son gave his answer, the king became furious and banished him.
+"What must have made the king so angry? Did the king later regret his actions?" Read this wonderful and interesting story.
+      </p>
       <div>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+        <button className='btn btn-primary fw-bold mt-'>Get Book</button>
       </div>
       </div>
       </div>
@@ -107,7 +111,9 @@ Find out what happened in this interesting story of Musa and his flute.</h5>
       <h3 className='pt-4'>    Alice In Wonderland
       </h3>
       <hr />
-      <h5>Rapunzel is about a beautiful girl with a very long golden braided hair, born by an ordinary parent; but bred by a witch. She lives in a high tower with the witch; in a thick wood as a child until... Discover for yourself what happened to Rapunzel in this story.
+      <h5>This wonderful adventure is about a curious girl, Alice who followed a white bunny with a waistcoat
+down to a large rabbit hole and found herself in an entirely strange land, where she kept growing to different sizes. Find out in this wonderful adventure, what Alice encountered and what wonderful experiences she had
+
       </h5>
       <div>
         <button className='btn btn-primary fw-bold mt-2'>Get Book</button>

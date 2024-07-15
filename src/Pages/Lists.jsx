@@ -86,7 +86,9 @@ read for yoursefl this exciting story.</p>
       <h3 className='pt-4'>      The Animal Musician
       </h3>
       <hr />
-      <h5>Kokogi was a cunning man, but expert at barbing at barbing and he was too proud of it that he started to misbehave. He also sold firewood to villagers at very high price and even cheated on them. But Kokogi must be taught a lesson. “How did he learn his lesson?” “What was his reward?” Read this interesting story of the dishonest barber.</h5>
+      <h5>The journey to Anatte is about four brave animals; the donkey, the dog, the cat and the hawk, who travelled to the village of Anatte to become great musicians.
+But on getting there, something else happened. They saw a gang of robbers.
+Are they going to be attacked? What hope of rewards could this bring Find out how things turned out in this adventure of the Animal Musicians.</h5>
       <div>
         <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
       </div>
