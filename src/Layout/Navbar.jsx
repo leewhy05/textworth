@@ -26,7 +26,7 @@ const MyNavbar = () => {
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Dropdown.Item href="/Lists" className='fw-bold'>Primary One</Dropdown.Item>
+        <Dropdown.Item href="/PrimaryOne" className='fw-bold'>Primary One</Dropdown.Item>
         <Dropdown.Item href="/PrimaryTwo" className='fw-bold'>Primary Two</Dropdown.Item>
         <Dropdown.Item href="/PrimaryThree" className='fw-bold'>Primary Three</Dropdown.Item>
         <Dropdown.Item href="/PrimaryFour" className='fw-bold'>Primary Four</Dropdown.Item>
@@ -79,7 +79,7 @@ const MyNavbar = () => {
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Dropdown.Item href="/Lists" className='fw-bold'>Primary One</Dropdown.Item>
+        <Dropdown.Item href="/PrimaryOne" className='fw-bold'>Primary One</Dropdown.Item>
         <Dropdown.Item href="/PrimaryTwo" className='fw-bold'>Primary Two</Dropdown.Item>
         <Dropdown.Item href="/PrimaryThree" className='fw-bold'>Primary Three</Dropdown.Item>
         <Dropdown.Item href="/PrimaryFour" className='fw-bold'>Primary Four</Dropdown.Item>

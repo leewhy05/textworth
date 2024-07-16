@@ -2,9 +2,9 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Navbar from './Layout/Navbar'
 import Home from './Pages/Home'
-import Lists from './Pages/Lists'
 import Preview from './Pages/Preview'
 import Virtual from './Pages/Virtual'
+import PrimaryOne from "./Pages/PrimaryOne"
 import PrimaryTwo from './components/PrimaryTwo'
 import PrimaryThree from './components/PrimaryThree'
 import Footer from './Layout/Footer'
@@ -21,7 +21,7 @@ function App() {
      <Navbar/>
      <Routes>
       <Route path='/' element={<Home/>}/>
-      <Route path='/Lists' element={<Lists/>}/>
+      <Route path='/PrimaryOne' element={<PrimaryOne/>}/>
       <Route path='/PrimaryTwo' element={<PrimaryTwo/>}/>
       <Route path='/PrimaryThree' element={<PrimaryThree/>}/>
       <Route path='/PrimaryFour' element={<PrimaryFour/>}/>
