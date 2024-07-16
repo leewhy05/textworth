@@ -4,7 +4,7 @@ import Navbar from './Layout/Navbar'
 import Home from './Pages/Home'
 import Preview from './Pages/Preview'
 import Virtual from './Pages/Virtual'
-import PrimaryOne from "./Pages/PrimaryOne"
+import PrimaryOne from "./components/PrimaryOne"
 import PrimaryTwo from './components/PrimaryTwo'
 import PrimaryThree from './components/PrimaryThree'
 import Footer from './Layout/Footer'
