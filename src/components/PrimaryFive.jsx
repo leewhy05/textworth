@@ -15,13 +15,10 @@ const PrimaryFive = () => {
     <div className=''>
     <img src={Granny} alt="" className='img-fluid lat'/>
     </div>
-    <h5 className='pt-4 fw-bold'>Granny's African Tales
+    <h5 className='pt-4 fs-3 fw-bold'>Granny's African Tales
     </h5>
     <hr />
-    <p className='fw-bold'>Ali Baba was a poor woodcutter, who later acquired a lot of riches by luck from a cave and became rich.
-Getting home, he told his brother Rasaq about how he got the riches.
-After Ali warned his brother not to go there, his brother later set out to the same cave with the aim of becoming richer than his brother, Ali Baba.
-On getting to the cave, something else happened. "Was he able to find his way out?" Read and find out, what later happened to his greedy brother.
+    <p className='fw-bold fs-5'>These are tales based on the rich culture of Africa. This book comprises both animal and human tales based on morals and relationship with the people around us. It is a book you would not want to drop till you get to the very last page.
 </p>
 <div className=''>
       <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
@@ -34,9 +31,9 @@ On getting to the cave, something else happened. "Was he able to find his way ou
     <h3 className='pt-4 fw-bold'>      The Clever Antics of Osofia
     </h3>
     <hr />
-    <h5>Kokogi was a cunning man, but expert at barbing at barbing and he was too proud of it that he started to misbehave. He also sold firewood to villagers at very high price and even cheated on them. But Kokogi must be taught a lesson. “How did he learn his lesson?” “What was his reward?” Read this interesting story of the dishonest barber.</h5>
+    <h5 className='fs-4 fw-bold pt-2'>Being a chief is not an easy task. Osafia soon finds out. Learn about the different tricks he uses to overcome these tasks in this wonderful and hilarious story.</h5>
     <div>
-      <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+      <button className='btn btn-primary fw-bold mt-5'>Get Book</button>
     </div>
     </div>
     <div className='big shadow mt-4 col-lg-4'>
@@ -46,10 +43,8 @@ On getting to the cave, something else happened. "Was he able to find his way ou
     <h4 className='pt-3 fw-bold'> The Loyal Prince And Other Stories
     </h4>
     <hr />
-    <h5>Tango was the god of thunder and lightning. He came to rule the earth with aa staffin his hands He ruled the earthh peacefúlly until one day, his staff was nowhere to be found.
-    Tango must find his staff but how and where? No one knows Read this and find outt what happens in thiss interesting story.
-
-    </h5>
+    <p className='fw-bold'>"The Loyal Prince and Other Stories" is a collection of inspiring tales that showcase courage, loyalty, and wisdom. The title story follows a prince who remains faithful to his king despite facing severe trials. Other stories in the collection feature themes of perseverance, honor, and selflessness, highlighting the triumph of good over evil. These uplifting stories aim to motivate readers to emulate the virtues of the characters, making the world a better place.
+    </p>
     <div>
       <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
     </div>
@@ -63,10 +58,10 @@ On getting to the cave, something else happened. "Was he able to find his way ou
     <h4 className='pt-4 fw-bold'>  Native Animal Tales
     </h4>
     <hr />
-    <p className='fw-bold'>This is a book containing series of short but very interesting stories on morals such as the power of unity and others. Each story is so full of suspense that you would not leave any page unturned till you get to the end.
+    <p className='fw-bold fs-5 pt-3'>This is a book containing series of short but very interesting stories on morals such as the power of unity and others. Each story is so full of suspense that you would not leave any page unturned till you get to the end.
 </p>
 <div>
-      <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+      <button className='btn btn-primary fw-bold mt-3'>Get Book</button>
     </div>
     </div>
     </div>

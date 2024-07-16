@@ -14,14 +14,11 @@ const PrimarySix = () => {
     <div className=''>
     <img src={Witty} alt="" className='img-fluid lat'/>
     </div>
-    <h5 className='pt-4 fw-bold'>Witty Seki
-    </h5>
-    <hr />
-    <p className='fw-bold'>Ali Baba was a poor woodcutter, who later acquired a lot of riches by luck from a cave and became rich.
-Getting home, he told his brother Rasaq about how he got the riches.
-After Ali warned his brother not to go there, his brother later set out to the same cave with the aim of becoming richer than his brother, Ali Baba.
-On getting to the cave, something else happened. "Was he able to find his way out?" Read and find out, what later happened to his greedy brother.
-</p>
+    <h1 className='pt-4 fw-bold'>Witty Seki
+    </h1>
+    <hr  className='fw-bold'/>
+    <h4 className='fw-bold pt-'>This is a story about a lazy and foolish boy called Sheki. He does so many foolish things that most times put him in trouble. Find out how he gets out of his many troubles in this hilarious book.
+</h4>
 <div className=''>
       <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
     </div>
@@ -45,8 +42,7 @@ On getting to the cave, something else happened. "Was he able to find his way ou
     <h4 className='pt-3 fw-bold'> Nduka's Bag of Tricks
     </h4>
     <hr />
-    <h5>Tango was the god of thunder and lightning. He came to rule the earth with aa staffin his hands He ruled the earthh peacefúlly until one day, his staff was nowhere to be found.
-    Tango must find his staff but how and where? No one knows Read this and find outt what happens in thiss interesting story.
+    <h5>Nduka is an unserious fellow who misuses opportunities. that come his way. He soon becomes the court jester, keeping the king and the other chiefs happy with his numerous. mischiefs.
 
     </h5>
     <div>
@@ -59,12 +55,11 @@ On getting to the cave, something else happened. "Was he able to find his way ou
     <div className=''>
     <img src={Night} alt="" className='img-fluid lat'/>
     </div>
-    <h4 className='pt-4 fw-bold'>  So Long A Night
-    </h4>
+    <h2 className='pt-4 fw-bold'>  So Long A Night
+    </h2>
     <hr />
-    <p className='fw-bold'>Ariel is the youngest and favorite mermaid, daughter of the merking Triton, and with the most beautiful voice.She saves a human prince, fell in love and suddenly wanted to be with him.
-With the help of the sea witch, she was able to achieve her goal but lost something very precious to her and almost lost everything she dreamt
-Find out in this exciting story what Beegme of Area, witcherking and the sea witch
+    <p className='fw-bold fs-4'>King Adeolu is angry with women in general.
+    Find out why and if he ever has a change of mind towards them in this exciting story.
 </p>
 <div>
       <button className='btn btn-primary fw-bold mt-2'>Get Book</button>

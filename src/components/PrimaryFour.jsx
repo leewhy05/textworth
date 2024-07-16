@@ -19,13 +19,14 @@ const PrimaryFour = () => {
       <h5 className='pt-4 fw-bold'>The Brave Princess
       </h5>
       <hr />
-      <p className='fw-bold'>Ali Baba was a poor woodcutter, who later acquired a lot of riches by luck from a cave and became rich.
-Getting home, he told his brother Rasaq about how he got the riches.
-After Ali warned his brother not to go there, his brother later set out to the same cave with the aim of becoming richer than his brother, Ali Baba.
-On getting to the cave, something else happened. "Was he able to find his way out?" Read and find out, what later happened to his greedy brother.
+      <p className='fw-bold fs-5'>Prince Edet was married to
+princess Uyai and they had a son, called Odudu.
+The king was very sick and sent for the prince to give
+him his final blessings. The prince set out with his princess and son and on the way something terrible happened to the princess.
+Read and enjoy, this wonderful story.
 </p>
 <div className=''>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+        <button className='btn btn-primary fw-bold mt-1'>Get Book</button>
       </div>
       </div>
       <div className='big shadow mt-4 col-lg-4'>
@@ -35,24 +36,24 @@ On getting to the cave, something else happened. "Was he able to find his way ou
       <h3 className='pt-4'>      Zainab
       </h3>
       <hr />
-      <h5>Zainab was an intelligent little girl whose father gave all she wanted. She wished to live in luxury but her hope was cut short as she lost her father when she needed him the most. Zainab must find a means of survival and becoming the woman of her dreams.
+      <h5 className='fw-bold'>Zainab was an intelligent little girl whose father gave all she wanted. She wished to live in luxury but her hope was cut short as she lost her father when she needed him the most. Zainab must find a means of survival and becoming the woman of her dreams.
       Read and enjoy this wonderful story and find out how Zainab survived.</h5>
       <div>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+        <button className='btn btn-primary fw-bold mt-3'>Get Book</button>
       </div>
       </div>
-      <div className='big shadow mt-4 col-lg-4'>
+      <div className='big shadow mt-4 col-lg-4'>  
       <div className=''>
       <img src={Bracelet} alt="" className='img-fluid w-100'/>
       </div>
       <h4 className='pt-3 fw-bold'> The Dainty Bracelet
       </h4>
       <hr />
-      <h5>Amarachi was a very pretty woman who had almost every thing she wanted but, was never contented. One day, she was passing by and heard the sound of metals clashing under a cave and something attracted her. "What was it?" Read and enjoy this interesting story of Amarachi.
+      <h5 className='fw-bold pt-2'>Amarachi was a very pretty woman who had almost every thing she wanted but, was never contented. One day, she was passing by and heard the sound of metals clashing under a cave and something attracted her. "What was it?" Read and enjoy this interesting story of Amarachi.
 
       </h5>
       <div>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+        <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
       </div>
       </div>
       </div>
@@ -74,12 +75,11 @@ On getting to the cave, something else happened. "Was he able to find his way ou
       <div className=''>
       <img src={Sleeping} alt="" className='img-fluid w-100'/>
       </div>
-      <h4 className='pt-4 fw-bold'>      Sleeping Beauty
+      <h4 className='pt-4 fs-3 fw-bold'>      Sleeping Beauty
       </h4>
       <hr />
-      <h5>Chinagorom was sent into the evil forest by her wicked stepmother to borrow a pot from Agadi, the witch.
-She encountered some difficulty on the journey to visit the witch. Did she survive in the evil Was she able to get the black pot from the witch?
-Read and find out about the exciting adventure, of Chinagorom in this interesting story.</h5>
+      <h5 className='fw-bold'>The story is narrated in the first person as an
+      autobiographical memoir told by the titular horse named Black Beauty-beginning with his carefree days as a colt on an English farm with his mother, to his difficult life pulling cabs in London, to his happy retirement in the country.</h5>
       <div>
         <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
       </div>
