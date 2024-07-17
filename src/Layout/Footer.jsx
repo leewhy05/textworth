@@ -23,8 +23,8 @@ const Footer = () => {
       <h3 className='fw-bold'>Follow Us</h3>
       <p>Stay connected with us on social media.</p>
       <div className='d-flex text-center gap-3'>
-      <Link to=" https://www.facebook.com/textsworth?mibextid=LQQJ4d" target='blank'><FaFacebook size={30} color='blue'/></Link>
-      <Link to=" https://www.instagram.com/textsworthpublishing?igsh=MXg4cHZtMW9oNHE0ZA%3D%3D&utm_source=qr" target='blank'><FaInstagram size={30} color='red'/></Link>
+      <Link to="https://www.facebook.com/textsworth?mibextid=LQQJ4d" target='blank'><FaFacebook size={30} color='blue'/></Link>
+      <Link to="https://www.instagram.com/textsworthpublishing?igsh=MXg4cHZtMW9oNHE0ZA%3D%3D&utm_source=qr" target='blank'><FaInstagram size={30} color='red'/></Link>
       <Link to="http://wa.me/2348091822114" target='blank'><FaWhatsapp size={30} color='green'/></Link>
       </div>
     
