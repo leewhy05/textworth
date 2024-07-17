@@ -13,7 +13,7 @@ const Lists = () => {
     const companyWhatsAppNumber = 'http://wa.me/2348091822114'; // Replace with the actual WhatsApp number
     const message = `I'm interested in the book "${bookTitle}".`; // Customize the message with the book title
 
-    const url = `https://wa.me/${companyWhatsAppNumber}?text=${encodeURIComponent(message)}`;
+    const url = `${companyWhatsAppNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   };
 
