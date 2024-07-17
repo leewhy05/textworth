@@ -9,6 +9,14 @@ import rap from "../assets/rapun.jpg"
 import { Link } from 'react-router-dom'
 
 const Lists = () => {
+  const handleWhatsAppClick = (bookTitle) => {
+    const companyWhatsAppNumber = 'http://wa.me/2348091822114'; // Replace with the actual WhatsApp number
+    const message = `I'm interested in the book "${bookTitle}".`; // Customize the message with the book title
+
+    const url = `https://wa.me/${companyWhatsAppNumber}?text=${encodeURIComponent(message)}`;
+    window.open(url, '_blank');
+  };
+
   return (
     <>
      <div className='container'>
@@ -30,10 +38,8 @@ duckling's life.
 wonderful story what became of the ugly 
 duckling as you read on.</h5>
 <div className=''>
-<Link to="">
-   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
-  </Link>
-      </div>
+              <button className='btn btn-primary fw-bold mt-4' onClick={() => handleWhatsAppClick("The Ugly Duckling")}>Get Book</button>
+            </div>
       </div>
       <div className='big shadow mt-4 col-lg-4'>
       <div className=''>
@@ -44,7 +50,7 @@ duckling as you read on.</h5>
       <hr />
       <h5>Kokogi was a cunning man, but expert at barbing at barbing and he was too proud of it that he started to misbehave. He also sold firewood to villagers at very high price and even cheated on them. But Kokogi must be taught a lesson. “How did he learn his lesson?” “What was his reward?” Read this interesting story of the dishonest barber.</h5>
       <div>
-      <Link to="">
+      <Link to="http://wa.me/2348091822114" target='blank'>
    <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
   </Link>
       </div>
@@ -59,7 +65,7 @@ duckling as you read on.</h5>
       <h5>Textsworth ‘story books’ are enchanting collections of indigenous African stories and popular English Classics, beautifully illustrated to make reading exciting. This book is basically designed to introduce school pupils to the world of Literature and arts. The African Delight and English Classics stories have been simplified too...
       </h5>
       <div>
-      <Link to="">
+      <Link to="http://wa.me/2348091822114" target='blank'>
    <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
   </Link>
       </div>
@@ -83,7 +89,7 @@ What do you think must have happened to the
 little gilr? Did the wolf hurt her?
 read for yoursefl this exciting story.</p>
 <div>
-<Link to="">
+<Link to="http://wa.me/2348091822114" target='blank'>
    <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
   </Link>
       </div>
@@ -99,7 +105,7 @@ read for yoursefl this exciting story.</p>
 But on getting there, something else happened. They saw a gang of robbers.
 Are they going to be attacked? What hope of rewards could this bring Find out how things turned out in this adventure of the Animal Musicians.</h5>
       <div>
-      <Link to="">
+      <Link to="http://wa.me/2348091822114" target='blank'>
    <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
   </Link>
       </div>
@@ -114,7 +120,7 @@ Are they going to be attacked? What hope of rewards could this bring Find out ho
       <h5 className='mt-5'>Rapunzel is about a beautiful girl with a very long golden braided hair, born by an ordinary parent; but bred by a witch. She lives in a high tower with the witch; in a thick wood as a child until... Discover for yourself what happened to Rapunzel in this story.
       </h5>
       <div>
-      <Link to="">
+      <Link to="http://wa.me/2348091822114" target='blank'>
    <button className='btn btn-primary fw-bold mt-5'>Get Book</button>
   </Link>
       </div>
