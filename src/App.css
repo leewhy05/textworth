@@ -51,4 +51,7 @@ button{
     height: 5rem;
     right: 0px;
   }
+  .long{
+    height: 17rem;
+  }
 }
