@@ -8,6 +8,7 @@ import Beautybeast from "../assets/eautybeast.jpg"
 import Dreamer from "../assets/saharatu.jpg"
 import Magicalguilt from "../assets/magical guilt.jpg"
 import Cinderella from "../assets/cindarela.jpg"
+import { Link } from 'react-router-dom'
 
 const PrimaryThree = () => {
   return (
@@ -27,7 +28,9 @@ After Ali warned his brother not to go there, his brother later set out to the s
 On getting to the cave, something else happened. "Was he able to find his way out?" Read and find out, what later happened to his greedy brother.
 </p>
 <div className=''>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+<Link to="">
+   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+  </Link>
       </div>
       </div>
       <div className='big shadow mt-4 col-lg-4'>
@@ -43,7 +46,9 @@ Something brought the princess, Aladdin and Jaffar together.
 "What was it?" You are going to enjoy this wonderful adventure of
 as you read on.</p>
       <div>
-        <button className='btn btn-primary fw-bold'>Get Book</button>
+      <Link to="">
+   <button className='btn btn-primary fw-bold mt-3'>Get Book</button>
+  </Link>
       </div>
       </div>
       <div className='big shadow mt-4 col-lg-4'>
@@ -53,12 +58,14 @@ as you read on.</p>
       <h4 className='pt-3 fw-bold'> TANGO AND THE MAGICAL STAFF
       </h4>
       <hr />
-      <h5>Tango was the god of thunder and lightning. He came to rule the earth with aa staffin his hands He ruled the earthh peacefúlly until one day, his staff was nowhere to be found.
+      <h5 className='mt-5'>Tango was the god of thunder and lightning. He came to rule the earth with aa staffin his hands He ruled the earthh peacefúlly until one day, his staff was nowhere to be found.
       Tango must find his staff but how and where? No one knows Read this and find outt what happens in thiss interesting story.
 
       </h5>
       <div>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+      <Link to="">
+   <button className='btn btn-primary fw-bold mt-5'>Get Book</button>
+  </Link>
       </div>
       </div>
       </div>
@@ -75,7 +82,9 @@ With the help of the sea witch, she was able to achieve her goal but lost someth
 Find out in this exciting story what Beegme of Area, witcherking and the sea witch
 </p>
 <div>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+<Link to="">
+   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+  </Link>
       </div>
       </div>
       <div className='big shadow mt-4 col-lg-4'>
@@ -85,11 +94,13 @@ Find out in this exciting story what Beegme of Area, witcherking and the sea wit
       <h4 className='pt-4'>      CHINAGOROM AND THE BLACK POT
       </h4>
       <hr />
-      <h5>Chinagorom was sent into the evil forest by her wicked stepmother to borrow a pot from Agadi, the witch.
+      <h5 className='mt-4'>Chinagorom was sent into the evil forest by her wicked stepmother to borrow a pot from Agadi, the witch.
 She encountered some difficulty on the journey to visit the witch. Did she survive in the evil Was she able to get the black pot from the witch?
 Read and find out about the exciting adventure, of Chinagorom in this interesting story.</h5>
       <div>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+      <Link to="">
+   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+  </Link>
       </div>
       </div>
       <div className='big shadow mt-4 col-lg-4'>
@@ -104,7 +115,9 @@ The first two daughters said what they wanted and the last and favourite said sh
 You will find out in this exciting and interesting story what the red rose did as you read on.
       </p>
       <div>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+      <Link to="">
+   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+  </Link>
       </div>
       </div>
       <div className='big shadow mt-4 col-lg-4'>
@@ -119,7 +132,9 @@ dreams a lot and she believes that her dreams are usually real. But, not everyon
 You will know, as you read this wonderfu story of Sa'haratu and her dreams.
       </h5>
       <div>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+      <Link to="">
+   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+  </Link>
       </div>
       </div>
       <div className='big shadow mt-4 col-lg-4'>
@@ -132,7 +147,9 @@ You will know, as you read this wonderfu story of Sa'haratu and her dreams.
       <h6 className='fw-bold'>Prince Efosa lived with his parents in a big castle in a deep ancient forest, and they were a set of lovely family.Something strange happened to Prince Efosa on his way home and, all of a sudden, he was nowhere to be found.Ejiro a brave girl, who lives in the same village, saw what happened and took it upon herself to find the Prince. Where would Prince Efosa have gone to?" "Was Ejiro able to accomplish her mission?" Read and enjoy this wonderful and exciting adventure of Ejiro.
       </h6>
       <div>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+      <Link to="">
+   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+  </Link>
       </div>
       </div>
       <div className='big shadow mt-4 col-lg-4'>
@@ -148,7 +165,9 @@ get a suitable wife. We don't know, if Cinderella was able to go to the ball or 
 Find out in this interesting and exciting story book what happened to Cinderella.
       </h5>
       <div>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+      <Link to="">
+   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+  </Link>
       </div>
       </div>
       </div>

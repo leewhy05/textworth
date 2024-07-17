@@ -4,6 +4,7 @@ import Witty from "../assets/itty seki.jpg"
 import Sheer from "../assets/sheer stupidity.jpg"
 import Tricks from "../assets/bag of tricks.jpg"
 import Night from "../assets/so long a night.jpg"
+import { Link } from 'react-router-dom'
 
 const PrimarySix = () => {
   return (
@@ -17,10 +18,12 @@ const PrimarySix = () => {
     <h1 className='pt-4 fw-bold'>Witty Seki
     </h1>
     <hr  className='fw-bold'/>
-    <h4 className='fw-bold pt-'>This is a story about a lazy and foolish boy called Sheki. He does so many foolish things that most times put him in trouble. Find out how he gets out of his many troubles in this hilarious book.
+    <h4 className=' pt-'>This is a story about a lazy and foolish boy called Sheki. He does so many foolish things that most times put him in trouble. Find out how he gets out of his many troubles in this hilarious book.
 </h4>
 <div className=''>
-      <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+<Link to="">
+   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+  </Link>
     </div>
     </div>
     <div className='big shadow mt-4 col-lg-4'>
@@ -32,7 +35,9 @@ const PrimarySix = () => {
     <hr />
     <h5>Kokogi was a cunning man, but expert at barbing at barbing and he was too proud of it that he started to misbehave. He also sold firewood to villagers at very high price and even cheated on them. But Kokogi must be taught a lesson. “How did he learn his lesson?” “What was his reward?” Read this interesting story of the dishonest barber.</h5>
     <div>
-      <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+    <Link to="">
+   <button className='btn btn-primary fw-bold mt-3'>Get Book</button>
+  </Link>
     </div>
     </div>
     <div className='big shadow mt-4 col-lg-4'>
@@ -42,11 +47,14 @@ const PrimarySix = () => {
     <h4 className='pt-3 fw-bold'> Nduka's Bag of Tricks
     </h4>
     <hr />
-    <h5>Nduka is an unserious fellow who misuses opportunities. that come his way. He soon becomes the court jester, keeping the king and the other chiefs happy with his numerous. mischiefs.
+    <h4 className='mt-4'>
+      Nduka is an unserious fellow who misuses opportunities. that come his way. He soon becomes the court jester, keeping the king and the other chiefs happy with his numerous. mischiefs.
 
-    </h5>
+    </h4>
     <div>
-      <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+    <Link to="">
+   <button className='btn btn-primary fw-bold mt-5'>Get Book</button>
+  </Link>
     </div>
     </div>
     </div>
@@ -62,7 +70,9 @@ const PrimarySix = () => {
     Find out why and if he ever has a change of mind towards them in this exciting story.
 </p>
 <div>
-      <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+<Link to="">
+   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+  </Link>
     </div>
     </div>
     </div>

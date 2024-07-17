@@ -6,6 +6,7 @@ import Boxing from "../assets/boxing day.jpg"
 import flute from "../assets/musa flute player.jpg"
 import Snow from "../assets/snow white.jpg"
 import Alice from "../assets/alice in wonder.jpg"
+import { Link } from 'react-router-dom'
 
 
 const PrimaryTwo = () => {
@@ -24,7 +25,9 @@ const PrimaryTwo = () => {
 On one of their visits to him he told them a story of how he journeyed from Owuze to Etiti in pursue of a very valuable possession, and he and his family were moved from grass to grace.
 Read and enjoy this interesting story of the golden stove.</h5>
 <div className=''>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+  <Link to="">
+   <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+  </Link>
       </div>
       </div>
       <div className='big shadow mt-4 col-lg-4'>
@@ -38,14 +41,16 @@ Read and enjoy this interesting story of the golden stove.</h5>
 ungrateful wife... Read on, as you will find out in this wonderful story what
 happened to this strange fish and</h5>
       <div>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
-      </div>
+      <Link to="">
+   <button className='btn btn-primary fw-bold mt-5'>Get Book</button>
+  </Link>
+        </div>
       </div>
       <div className='big shadow mt-4 col-lg-4'>
       <div className=''>
       <img src={Wrong} alt="" className='img-fluid w-100'/>
       </div>
-      <h4 className=' fw-bold'>     A Wrong Decision
+      <h4 className=' fw-bold'> A Wrong Decision
       </h4>
       <hr />
       <p  className='fw-bold'>Aderin, the king of Owoderin ruled
@@ -55,7 +60,9 @@ But when the third son gave his answer, the king became furious and banished him
 "What must have made the king so angry? Did the king later regret his actions?" Read this wonderful and interesting story.
       </p>
       <div>
-        <button className='btn btn-primary fw-bold mt-'>Get Book</button>
+      <Link to="">
+   <button className='btn btn-primary fw-bold '>Get Book</button>
+  </Link>
       </div>
       </div>
       </div>
@@ -71,14 +78,16 @@ But when the third son gave his answer, the king became furious and banished him
 a child since they got married, and each time Adaugo gets pregnant, she delivers a stillbirth. After the fifth stillbirth, Elechi became seriously ill and was taken to a faraway village for a cure.
 One day, three men who were on a journey visited Adaugo. They asked her for a place to rest. "Did Adaugo offer to help these men and who are they ?"</p>
 <div>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+<Link to="">
+   <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+  </Link>
       </div>
       </div>
       <div className='big shadow mt-4 col-lg-4'>
       <div className=''>
       <img src={flute} alt="" className='img-fluid w-100'/>
       </div>
-      <h3 className='pt-4'>      Musa The Flute Player
+      <h3 className='pt-4'>  Musa The Flute Player
       </h3>
       <hr />
       <h5>The people of Bakinruwa lived peacefully and happily and had enough to eat.
@@ -87,7 +96,9 @@ One night, thousands of mice invaded their town and everything changed for the v
 "Where could the mice have vanished to?"
 Find out what happened in this interesting story of Musa and his flute.</h5>
       <div>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+      <Link to="">
+   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+  </Link>
       </div>
       </div>
       <div className='big shadow mt-4 col-lg-4'>
@@ -101,7 +112,9 @@ Find out what happened in this interesting story of Musa and his flute.</h5>
       anything happen to her?" Let's find out, as we read this interesting classic story of Snow White.
       </h5>
       <div>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+      <Link to="">
+   <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+  </Link>
       </div>
       </div>
       <div className='big shadow mt-4 col-lg-4'>
@@ -116,7 +129,9 @@ down to a large rabbit hole and found herself in an entirely strange land, where
 
       </h5>
       <div>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+      <Link to="">
+   <button className='btn btn-primary fw-bold mt-3'>Get Book</button>
+  </Link>
       </div>
       </div>
       </div>

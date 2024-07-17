@@ -4,6 +4,7 @@ import Zinab from "../assets/Zinab.jpg"
 import Bracelet from "../assets/dainty bracelet.jpg"
 import Auwalu from "../assets/healing gift.jpg"
 import Sleeping from "../assets/sleeping beauty.jpg"
+import { Link } from 'react-router-dom'
 
 
 
@@ -26,7 +27,9 @@ him his final blessings. The prince set out with his princess and son and on the
 Read and enjoy, this wonderful story.
 </p>
 <div className=''>
-        <button className='btn btn-primary fw-bold mt-1'>Get Book</button>
+<Link to="">
+   <button className='btn btn-primary fw-bold mt-'>Get Book</button>
+  </Link>
       </div>
       </div>
       <div className='big shadow mt-4 col-lg-4'>
@@ -36,10 +39,12 @@ Read and enjoy, this wonderful story.
       <h3 className='pt-4'>      Zainab
       </h3>
       <hr />
-      <h5 className='fw-bold'>Zainab was an intelligent little girl whose father gave all she wanted. She wished to live in luxury but her hope was cut short as she lost her father when she needed him the most. Zainab must find a means of survival and becoming the woman of her dreams.
+      <h5 className='fw-bold mt-4'>Zainab was an intelligent little girl whose father gave all she wanted. She wished to live in luxury but her hope was cut short as she lost her father when she needed him the most. Zainab must find a means of survival and becoming the woman of her dreams.
       Read and enjoy this wonderful story and find out how Zainab survived.</h5>
       <div>
-        <button className='btn btn-primary fw-bold mt-3'>Get Book</button>
+      <Link to="">
+   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+  </Link>
       </div>
       </div>
       <div className='big shadow mt-4 col-lg-4'>  
@@ -49,11 +54,13 @@ Read and enjoy, this wonderful story.
       <h4 className='pt-3 fw-bold'> The Dainty Bracelet
       </h4>
       <hr />
-      <h5 className='fw-bold pt-2'>Amarachi was a very pretty woman who had almost every thing she wanted but, was never contented. One day, she was passing by and heard the sound of metals clashing under a cave and something attracted her. "What was it?" Read and enjoy this interesting story of Amarachi.
+      <h5 className='fw-bold mt-5'>Amarachi was a very pretty woman who had almost every thing she wanted but, was never contented. One day, she was passing by and heard the sound of metals clashing under a cave and something attracted her. "What was it?" Read and enjoy this interesting story of Amarachi.
 
       </h5>
       <div>
-        <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+      <Link to="">
+   <button className='btn btn-primary fw-bold mt-5'>Get Book</button>
+  </Link>
       </div>
       </div>
       </div>
@@ -68,7 +75,9 @@ Read and enjoy, this wonderful story.
       <p className='fw-bold'>In the olden days, there is a village called Sabogona they had a god called Lawan, who was just. Lawan, the god came to earth and disguised himself as a man and had a family. Something went wrong and Lawan had to vanish, but his fatherly love could not let him abandon his son whom he made famous by giving him special healing powers with a certain condition that can affect the life of the dying princess. Read and find out the twists in this exciting story.
 </p>
 <div>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+<Link to="">
+   <button className='btn btn-primary fw-bold mt-3'>Get Book</button>
+  </Link>
       </div>
       </div>
       <div className='big shadow mt-4 col-lg-4'>
@@ -78,10 +87,12 @@ Read and enjoy, this wonderful story.
       <h4 className='pt-4 fs-3 fw-bold'>      Sleeping Beauty
       </h4>
       <hr />
-      <h5 className='fw-bold'>The story is narrated in the first person as an
+      <h5 className='fw-bold mt-4'>The story is narrated in the first person as an
       autobiographical memoir told by the titular horse named Black Beauty-beginning with his carefree days as a colt on an English farm with his mother, to his difficult life pulling cabs in London, to his happy retirement in the country.</h5>
       <div>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+      <Link to="">
+   <button className='btn btn-primary fw-bold mt-5'>Get Book</button>
+  </Link>
       </div>
       </div>
       </div>

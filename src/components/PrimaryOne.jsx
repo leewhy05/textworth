@@ -6,6 +6,7 @@ import magic from "../assets/magic.jpg"
 import riding from "../assets/ridding hood.jpg"
 import animal from "../assets/animal.jpg"
 import rap from "../assets/rapun.jpg"
+import { Link } from 'react-router-dom'
 
 const Lists = () => {
   return (
@@ -29,7 +30,9 @@ duckling's life.
 wonderful story what became of the ugly 
 duckling as you read on.</h5>
 <div className=''>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+<Link to="">
+   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+  </Link>
       </div>
       </div>
       <div className='big shadow mt-4 col-lg-4'>
@@ -41,7 +44,9 @@ duckling as you read on.</h5>
       <hr />
       <h5>Kokogi was a cunning man, but expert at barbing at barbing and he was too proud of it that he started to misbehave. He also sold firewood to villagers at very high price and even cheated on them. But Kokogi must be taught a lesson. “How did he learn his lesson?” “What was his reward?” Read this interesting story of the dishonest barber.</h5>
       <div>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+      <Link to="">
+   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+  </Link>
       </div>
       </div>
       <div className='big shadow mt-4 col-lg-4'>
@@ -54,7 +59,9 @@ duckling as you read on.</h5>
       <h5>Textsworth ‘story books’ are enchanting collections of indigenous African stories and popular English Classics, beautifully illustrated to make reading exciting. This book is basically designed to introduce school pupils to the world of Literature and arts. The African Delight and English Classics stories have been simplified too...
       </h5>
       <div>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+      <Link to="">
+   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+  </Link>
       </div>
       </div>
       </div>
@@ -76,7 +83,9 @@ What do you think must have happened to the
 little gilr? Did the wolf hurt her?
 read for yoursefl this exciting story.</p>
 <div>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+<Link to="">
+   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+  </Link>
       </div>
       </div>
       <div className='big shadow mt-4 col-lg-4'>
@@ -90,7 +99,9 @@ read for yoursefl this exciting story.</p>
 But on getting there, something else happened. They saw a gang of robbers.
 Are they going to be attacked? What hope of rewards could this bring Find out how things turned out in this adventure of the Animal Musicians.</h5>
       <div>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+      <Link to="">
+   <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+  </Link>
       </div>
       </div>
       <div className='big shadow mt-4 col-lg-4'>
@@ -100,10 +111,12 @@ Are they going to be attacked? What hope of rewards could this bring Find out ho
       <h3 className='pt-4'>     Rapunzel
       </h3>
       <hr />
-      <h5>Rapunzel is about a beautiful girl with a very long golden braided hair, born by an ordinary parent; but bred by a witch. She lives in a high tower with the witch; in a thick wood as a child until... Discover for yourself what happened to Rapunzel in this story.
+      <h5 className='mt-5'>Rapunzel is about a beautiful girl with a very long golden braided hair, born by an ordinary parent; but bred by a witch. She lives in a high tower with the witch; in a thick wood as a child until... Discover for yourself what happened to Rapunzel in this story.
       </h5>
       <div>
-        <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+      <Link to="">
+   <button className='btn btn-primary fw-bold mt-5'>Get Book</button>
+  </Link>
       </div>
       </div>
       </div>
