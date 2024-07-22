@@ -16,7 +16,7 @@ const Footer = () => {
     </div>
     <div className="footer-section">
       <h3 className='fw-bold'>Contact Us</h3>
-      <p>Email:  textsworthpublishing@gmail.com</p>
+      <p>Email:   readtonations@gmail.com</p>
       <p>Phone: +234 809 182 2114</p>
     </div>
     <div className="footer-section">
