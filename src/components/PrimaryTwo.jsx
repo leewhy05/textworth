@@ -10,6 +10,13 @@ import { Link } from 'react-router-dom'
 
 
 const PrimaryTwo = () => {
+      const handleWhatsAppClick = (bookTitle) => {
+            const companyWhatsAppNumber = 'http://wa.me/2348091822114'; // Replace with the actual WhatsApp number
+            const message =`I'm interested in the book "${bookTitle}".`; // Customize the message with the book title
+        
+            const url = `${companyWhatsAppNumber}?text=${encodeURIComponent(message)}`;
+            window.open(url, '_blank');
+          };
   return (
     <>
       <div className='container'>
@@ -26,7 +33,7 @@ On one of their visits to him he told them a story of how he journeyed from Owuz
 Read and enjoy this interesting story of the golden stove.</h5>
 <div className=''>
   <Link to="">
-   <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-2' onClick={() => handleWhatsAppClick("The Golden Stove")}>Get Book</button>
   </Link>
       </div>
       </div>
@@ -42,7 +49,7 @@ ungrateful wife... Read on, as you will find out in this wonderful story what
 happened to this strange fish and</h5>
       <div>
       <Link to="">
-   <button className='btn btn-primary fw-bold mt-5'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-5'  onClick={() => handleWhatsAppClick("The Talking Fish")}>Get Book</button>
   </Link>
         </div>
       </div>
@@ -61,7 +68,7 @@ But when the third son gave his answer, the king became furious and banished him
       </p>
       <div>
       <Link to="">
-   <button className='btn btn-primary fw-bold '>Get Book</button>
+   <button className='btn btn-primary fw-bold '  onClick={() => handleWhatsAppClick("A Wrong Decision")}>Get Book</button>
   </Link>
       </div>
       </div>
@@ -79,7 +86,7 @@ a child since they got married, and each time Adaugo gets pregnant, she delivers
 One day, three men who were on a journey visited Adaugo. They asked her for a place to rest. "Did Adaugo offer to help these men and who are they ?"</p>
 <div>
 <Link to="">
-   <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-2'  onClick={() => handleWhatsAppClick("Its Boxing Day")}>Get Book</button>
   </Link>
       </div>
       </div>
@@ -97,7 +104,7 @@ One night, thousands of mice invaded their town and everything changed for the v
 Find out what happened in this interesting story of Musa and his flute.</h5>
       <div>
       <Link to="">
-   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-4' onClick={() => handleWhatsAppClick("Musa The Flute Player")}>Get Book</button>
   </Link>
       </div>
       </div>
@@ -113,7 +120,7 @@ Find out what happened in this interesting story of Musa and his flute.</h5>
       </h5>
       <div>
       <Link to="">
-   <button className='btn btn-primary fw-bold mt-2'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-2'  onClick={() => handleWhatsAppClick(" Snow White")}>Get Book</button>
   </Link>
       </div>
       </div>
@@ -130,7 +137,7 @@ down to a large rabbit hole and found herself in an entirely strange land, where
       </h5>
       <div>
       <Link to="">
-   <button className='btn btn-primary fw-bold mt-3'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-3' onClick={() => handleWhatsAppClick(" Alice In Wonderland")}>Get Book</button>
   </Link>
       </div>
       </div>

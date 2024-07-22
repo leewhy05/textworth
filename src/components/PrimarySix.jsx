@@ -7,6 +7,13 @@ import Night from "../assets/so long a night.jpg"
 import { Link } from 'react-router-dom'
 
 const PrimarySix = () => {
+  const handleWhatsAppClick = (bookTitle) => {
+    const companyWhatsAppNumber = 'http://wa.me/2348091822114'; // Replace with the actual WhatsApp number
+    const message =`I'm interested in the book "${bookTitle}".`; // Customize the message with the book title
+
+    const url = `${companyWhatsAppNumber}?text=${encodeURIComponent(message)}`;
+    window.open(url, '_blank');
+  };
   return (
     <>
     <div className='container'>
@@ -22,7 +29,7 @@ const PrimarySix = () => {
 </h4>
 <div className=''>
 <Link to="">
-   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-4'onClick={() => handleWhatsAppClick("Witty Seki")}>Get Book</button>
   </Link>
     </div>
     </div>
@@ -36,7 +43,7 @@ const PrimarySix = () => {
     <h5>Kokogi was a cunning man, but expert at barbing at barbing and he was too proud of it that he started to misbehave. He also sold firewood to villagers at very high price and even cheated on them. But Kokogi must be taught a lesson. “How did he learn his lesson?” “What was his reward?” Read this interesting story of the dishonest barber.</h5>
     <div>
     <Link to="">
-   <button className='btn btn-primary fw-bold mt-3'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-3'onClick={() => handleWhatsAppClick("SHEER STUPIDITY")}>Get Book</button>
   </Link>
     </div>
     </div>
@@ -53,7 +60,7 @@ const PrimarySix = () => {
     </h4>
     <div>
     <Link to="">
-   <button className='btn btn-primary fw-bold mt-5'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-5'onClick={() => handleWhatsAppClick("Nduka's Bag of Tricks")}>Get Book</button>
   </Link>
     </div>
     </div>
@@ -71,7 +78,7 @@ const PrimarySix = () => {
 </p>
 <div>
 <Link to="">
-   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-4'onClick={() => handleWhatsAppClick("So Long A Night")}>Get Book</button>
   </Link>
     </div>
     </div>

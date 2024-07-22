@@ -11,6 +11,13 @@ import Cinderella from "../assets/cindarela.jpg"
 import { Link } from 'react-router-dom'
 
 const PrimaryThree = () => {
+      const handleWhatsAppClick = (bookTitle) => {
+            const companyWhatsAppNumber = 'http://wa.me/2348091822114'; // Replace with the actual WhatsApp number
+            const message =`I'm interested in the book "${bookTitle}".`; // Customize the message with the book title
+        
+            const url = `${companyWhatsAppNumber}?text=${encodeURIComponent(message)}`;
+            window.open(url, '_blank');
+          };
   return (
     <>
       <div className='container'>
@@ -29,7 +36,7 @@ On getting to the cave, something else happened. "Was he able to find his way ou
 </p>
 <div className=''>
 <Link to="">
-   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-4'onClick={() => handleWhatsAppClick("ALI BABA AND HIS GREEDY BROTHERS")}>Get Book</button>
   </Link>
       </div>
       </div>
@@ -47,7 +54,7 @@ Something brought the princess, Aladdin and Jaffar together.
 as you read on.</p>
       <div>
       <Link to="">
-   <button className='btn btn-primary fw-bold mt-3'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-3'onClick={() => handleWhatsAppClick("Aladin and the magical lamp")}>Get Book</button>
   </Link>
       </div>
       </div>
@@ -64,7 +71,7 @@ as you read on.</p>
       </h5>
       <div>
       <Link to="">
-   <button className='btn btn-primary fw-bold mt-5'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-5'onClick={() => handleWhatsAppClick("TANGO AND THE MAGICAL STAFF")}>Get Book</button>
   </Link>
       </div>
       </div>
@@ -83,7 +90,7 @@ Find out in this exciting story what Beegme of Area, witcherking and the sea wit
 </p>
 <div>
 <Link to="">
-   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-4'onClick={() => handleWhatsAppClick("THE LITTLE MERMAID")}>Get Book</button>
   </Link>
       </div>
       </div>
@@ -99,7 +106,7 @@ She encountered some difficulty on the journey to visit the witch. Did she survi
 Read and find out about the exciting adventure, of Chinagorom in this interesting story.</h5>
       <div>
       <Link to="">
-   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-4'onClick={() => handleWhatsAppClick("CHINAGOROM AND THE BLACK POT")}>Get Book</button>
   </Link>
       </div>
       </div>
@@ -116,7 +123,7 @@ You will find out in this exciting and interesting story what the red rose did a
       </p>
       <div>
       <Link to="">
-   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-4'onClick={() => handleWhatsAppClick("BEAUTY  AND THE BEAST")}>Get Book</button>
   </Link>
       </div>
       </div>
@@ -133,7 +140,7 @@ You will know, as you read this wonderfu story of Sa'haratu and her dreams.
       </h5>
       <div>
       <Link to="">
-   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-4'onClick={() => handleWhatsAppClick("Sa'haratu The Dreamer")}>Get Book</button>
   </Link>
       </div>
       </div>
@@ -148,7 +155,7 @@ You will know, as you read this wonderfu story of Sa'haratu and her dreams.
       </h6>
       <div>
       <Link to="">
-   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-4'onClick={() => handleWhatsAppClick("THE MAGICAL QUITY")}>Get Book</button>
   </Link>
       </div>
       </div>
@@ -166,7 +173,7 @@ Find out in this interesting and exciting story book what happened to Cinderella
       </h5>
       <div>
       <Link to="">
-   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-4'onClick={() => handleWhatsAppClick("CINDERELLA ")}>Get Book</button>
   </Link>
       </div>
       </div>

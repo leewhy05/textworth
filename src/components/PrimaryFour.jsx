@@ -9,6 +9,13 @@ import { Link } from 'react-router-dom'
 
 
 const PrimaryFour = () => {
+  const handleWhatsAppClick = (bookTitle) => {
+    const companyWhatsAppNumber = 'http://wa.me/2348091822114'; // Replace with the actual WhatsApp number
+    const message =`I'm interested in the book "${bookTitle}".`; // Customize the message with the book title
+
+    const url = `${companyWhatsAppNumber}?text=${encodeURIComponent(message)}`;
+    window.open(url, '_blank');
+  };
   return (
     <>
       <div className='container'>
@@ -28,7 +35,7 @@ Read and enjoy, this wonderful story.
 </p>
 <div className=''>
 <Link to="">
-   <button className='btn btn-primary fw-bold mt-'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-'onClick={() => handleWhatsAppClick("The Brave Princess")}>Get Book</button>
   </Link>
       </div>
       </div>
@@ -43,7 +50,7 @@ Read and enjoy, this wonderful story.
       Read and enjoy this wonderful story and find out how Zainab survived.</h5>
       <div>
       <Link to="">
-   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-4'onClick={() => handleWhatsAppClick("Zainab")}>Get Book</button>
   </Link>
       </div>
       </div>
@@ -59,7 +66,7 @@ Read and enjoy, this wonderful story.
       </h5>
       <div>
       <Link to="">
-   <button className='btn btn-primary fw-bold mt-5'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-5'onClick={() => handleWhatsAppClick("The Dainty Bracelet")}>Get Book</button>
   </Link>
       </div>
       </div>
@@ -76,7 +83,7 @@ Read and enjoy, this wonderful story.
 </p>
 <div>
 <Link to="">
-   <button className='btn btn-primary fw-bold mt-3'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-3'onClick={() => handleWhatsAppClick("AUWALU and the HEALING GIFT")}>Get Book</button>
   </Link>
       </div>
       </div>
@@ -91,7 +98,7 @@ Read and enjoy, this wonderful story.
       autobiographical memoir told by the titular horse named Black Beauty-beginning with his carefree days as a colt on an English farm with his mother, to his difficult life pulling cabs in London, to his happy retirement in the country.</h5>
       <div>
       <Link to="">
-   <button className='btn btn-primary fw-bold mt-5'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-5'onClick={() => handleWhatsAppClick("Sleeping Beauty")}>Get Book</button>
   </Link>
       </div>
       </div>

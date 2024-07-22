@@ -8,6 +8,13 @@ import { Link } from 'react-router-dom'
 
 
 const PrimaryFive = () => {
+  const handleWhatsAppClick = (bookTitle) => {
+    const companyWhatsAppNumber = 'http://wa.me/2348091822114'; // Replace with the actual WhatsApp number
+    const message =`I'm interested in the book "${bookTitle}".`; // Customize the message with the book title
+
+    const url = `${companyWhatsAppNumber}?text=${encodeURIComponent(message)}`;
+    window.open(url, '_blank');
+  };
   return (
     <>
     <div className='container'>
@@ -23,7 +30,7 @@ const PrimaryFive = () => {
 </p>
 <div className=''>
 <Link to="">
-   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-4'onClick={() => handleWhatsAppClick("Granny's African Tales")}>Get Book</button>
   </Link>
     </div>
     </div>
@@ -37,7 +44,7 @@ const PrimaryFive = () => {
     <h5 className='fs-4 fw-bold pt-3'>Being a chief is not an easy task. Osafia soon finds out. Learn about the different tricks he uses to overcome these tasks in this wonderful and hilarious story.</h5>
     <div>
     <Link to="">
-   <button className='btn btn-primary fw-bold mt-5'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-5'onClick={() => handleWhatsAppClick(" The Clever Antics of Osofia")}>Get Book</button>
   </Link>
     </div>
     </div>
@@ -52,7 +59,7 @@ const PrimaryFive = () => {
     </p>
     <div>
     <Link to="">
-   <button className='btn btn-primary fw-bold mt-'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-'onClick={() => handleWhatsAppClick("The Loyal Prince And Other Stories")}>Get Book</button>
   </Link>
     </div>
     </div>
@@ -69,7 +76,7 @@ const PrimaryFive = () => {
 </p>
 <div>
 <Link to="">
-   <button className='btn btn-primary fw-bold mt-4'>Get Book</button>
+   <button className='btn btn-primary fw-bold mt-4'onClick={() => handleWhatsAppClick("Native Animal Tales")}>Get Book</button>
   </Link>
     </div>
     </div>
